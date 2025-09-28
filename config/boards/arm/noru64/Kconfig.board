@@ -10,3 +10,7 @@ config BOARD_NORU64_V1_LEFT
 config BOARD_NORU64_V1_RIGHT
 	bool "noru64_v1_right"
 	depends on SOC_NRF52840_QIAA
+
+config BOARD_NORU64_V1_SINGLE
+	bool "noru64_v1_single"
+	depends on SOC_NRF52840_QIAA
