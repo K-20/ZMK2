@@ -14,7 +14,6 @@
 ---
 
 include:
-  - board: noru64_v1_single
   - board: noru64_v1_left
   - board: noru64_v1_right
   - board: nice_nano
