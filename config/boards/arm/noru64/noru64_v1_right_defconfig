@@ -9,14 +9,8 @@ CONFIG_BOARD_NORU64_V1_RIGHT=y
 #Enable split keyboard
 CONFIG_ZMK_SPLIT=y
 
-#Enable peripheral side
-CONFIG_ZMK_SPLIT_ROLE_PERIPHERAL=y
-
-# Enable automatic advertising for central to find
-CONFIG_ZMK_SPLIT_BLE_PERIPHERAL_START_ADV=y
-
-# Enable split BLE connection
-CONFIG_ZMK_SPLIT_BLE=y
+#Enable master side
+CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 
 #Enable sleep
 CONFIG_ZMK_SLEEP=n
