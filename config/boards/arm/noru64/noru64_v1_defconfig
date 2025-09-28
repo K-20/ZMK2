@@ -9,6 +9,15 @@ CONFIG_BOARD_NORU64_V1=y
 #Enable split keyboard
 CONFIG_ZMK_SPLIT=y
 
+#Enable master side
+CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+
+# Enable automatic connection to peripheral
+CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERAL_START_SCAN=y
+
+# Enable split BLE connection
+CONFIG_ZMK_SPLIT_BLE=y
+
 #Enable sleep
 CONFIG_ZMK_SLEEP=n
 
