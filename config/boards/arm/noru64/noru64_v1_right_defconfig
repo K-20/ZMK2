@@ -10,7 +10,6 @@ CONFIG_BOARD_NORU64_V1_RIGHT=y
 CONFIG_ZMK_SPLIT=y
 
 #Enable peripheral side (no central role = peripheral)
-#CONFIG_ZMK_SPLIT_ROLE_CENTRAL is not set
 
 #Enable sleep
 CONFIG_ZMK_SLEEP=n
