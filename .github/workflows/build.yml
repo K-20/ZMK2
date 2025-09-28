@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -41,7 +41,7 @@ jobs:
           west build -p -d build/${{ matrix.board }} -b ${{ matrix.board }}
 
       - name: Upload firmware
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: firmware-${{ matrix.board }}
           path: build/${{ matrix.board }}/zephyr/*.uf2
