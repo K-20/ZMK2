@@ -1,0 +1,47 @@
+name: Build
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        board: [noru64_v1_single]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install west
+        run: |
+          pip install west
+
+      - name: Initialize ZMK
+        run: |
+          west init -l config
+          west update
+          west zephyr-export
+
+      - name: Install dependencies
+        run: |
+          pip install -r zephyr/scripts/requirements.txt
+
+      - name: Build firmware
+        run: |
+          west build -p -d build/${{ matrix.board }} -b ${{ matrix.board }}
+
+      - name: Upload firmware
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware-${{ matrix.board }}
+          path: build/${{ matrix.board }}/zephyr/*.uf2
