@@ -1,6 +1,13 @@
 # Copyright (c) 2020 Eric Lau
 # SPDX-License-Identifier: MIT
 
+if BOARD_NORU64_V1
+
+	config ZMK_KEYBOARD_NAME
+		default "Noru64 v1"
+
+endif # BOARD_NORU64_V1
+
 if BOARD_NORU64_V1_LEFT
 
 	config ZMK_KEYBOARD_NAME
@@ -17,10 +24,10 @@ if BOARD_NORU64_V1_RIGHT
 endif # BOARD_NORU64_V1_RIGHT
 
 
-if BOARD_NORU64_V1_LEFT || BOARD_NORU64_V1_RIGHT
+if BOARD_NORU64_V1 || BOARD_NORU64_V1_LEFT || BOARD_NORU64_V1_RIGHT
 
 config BOARD
-	default "Noru64"
+	default "noru64_v1"
 
 config ZMK_SPLIT
 	default y
@@ -47,4 +54,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # BOARD_NORU64_V1_LEFT || BOARD_NORU64_V1_RIGHT
+endif # BOARD_NORU64_V1 || BOARD_NORU64_V1_LEFT || BOARD_NORU64_V1_RIGHT
