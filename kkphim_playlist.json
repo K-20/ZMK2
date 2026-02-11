@@ -1,578 +1,1125 @@
 {
   "id": "kkphim.com",
-  "name": "KKPhim Channel",
-  "type": "playlist",
-  "display": "thumbnail-only",
-  "sources": [
+  "name": "KKPhim Provider",
+  "author": "Antigravity",
+  "image": {
+    "url": "https://img.kkphim.com/logo.png",
+    "type": "contain"
+  },
+  "groups": [
     {
-      "id": "kkphim_latest",
+      "id": "group_newest",
       "name": "Phim Mới Cập Nhật",
-      "contents": [
+      "image": {
+        "url": "https://img.kkphim.com/logo.png",
+        "type": "contain"
+      },
+      "channels": [
         {
-          "id": "1a98639f7a5974a45ccd7826ce570a18",
+          "id": "channel_thung-lung-xe-hoi",
           "name": "Thung Lũng Xe Hơi",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260212-1/82b78306b6663fcf7447dcddb629212c.jpg"
-          },
           "description": "Nỗ lực giành quyền kiểm soát đế chế đua xe của gia đình, nữ thừa kế nọ thuê một tay đua liều lĩnh và một huấn luyện viên mang nhiều tổn thương để tranh tài ở Italian Gran Turismo.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260212-1/82b78306b6663fcf7447dcddb629212c.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_thung-lung-xe-hoi",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_thung-lung-xe-hoi",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260211/aiDH7iSs/index.m3u8"
+                  "id": "content_thung-lung-xe-hoi",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_thung-lung-xe-hoi",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_thung-lung-xe-hoi",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260211/aiDH7iSs/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "ad041f9b96370d724c8a8400350276ed",
+          "id": "channel_nhung-dua-tre-nhuom-chi-oowiane-dzieci",
           "name": "Những Đứa Trẻ Nhuốm Chì (Ołowiane dzieci)",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260212-1/ae3b2ef2d00c8e2be1f41504d5a15293.jpg"
-          },
           "description": "Phát hiện ra rằng trẻ em sống gần nhà máy luyện kim bị nhiễm độc chì, vị bác sĩ trẻ nọ mạo hiểm sự nghiệp và an toàn của bản thân để cứu bọn trẻ.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260212-1/ae3b2ef2d00c8e2be1f41504d5a15293.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_nhung-dua-tre-nhuom-chi-oowiane-dzieci",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_nhung-dua-tre-nhuom-chi-oowiane-dzieci",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260211/TcqwNS5r/index.m3u8"
+                  "id": "content_nhung-dua-tre-nhuom-chi-oowiane-dzieci",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_nhung-dua-tre-nhuom-chi-oowiane-dzieci",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_nhung-dua-tre-nhuom-chi-oowiane-dzieci",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260211/TcqwNS5r/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "fbe6ce6a3f92aa796ef05b887d97a891",
+          "id": "channel_van-de-thoi-gian",
           "name": "Vấn Đề Thời Gian",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260212-1/8dbe009fdea5a8d81c7ad3bb1cf7069f.jpg"
-          },
           "description": "Bộ phim tài liệu có tác động lớn này kết hợp concert từ thiện của Eddie Vedder với câu chuyện về các gia đình và bác sĩ nỗ lực tìm ra cách chữa bệnh ly thượng bì bọng nước (EB).",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260212-1/8dbe009fdea5a8d81c7ad3bb1cf7069f.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_van-de-thoi-gian",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_van-de-thoi-gian",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260211/Myubg25w/index.m3u8"
+                  "id": "content_van-de-thoi-gian",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_van-de-thoi-gian",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_van-de-thoi-gian",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260211/Myubg25w/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "83c706bcd62987cfd028da72db0f7f2c",
+          "id": "channel_trai-tim-cua-yiwha-tinh-yeu-va-bao-thu",
           "name": "Trái Tim Của Yiwha: Tình Yêu Và Báo Thù",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260113-1/8e47a1fdf374e978ae19b99fba1ce1ef.jpg"
-          },
           "description": "Sau khi bọn cướp sát hại cả gia đình, chiến binh trẻ tuổi nọ tìm cách trả thù bằng hắc thuật – nhưng rồi cô con gái quyến rũ của kẻ thù lại khiến hành trình ấy trở nên rối rắm.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260113-1/8e47a1fdf374e978ae19b99fba1ce1ef.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_trai-tim-cua-yiwha-tinh-yeu-va-bao-thu",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_trai-tim-cua-yiwha-tinh-yeu-va-bao-thu",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260113/pZEydzQD/index.m3u8"
+                  "id": "content_trai-tim-cua-yiwha-tinh-yeu-va-bao-thu",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_trai-tim-cua-yiwha-tinh-yeu-va-bao-thu",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_trai-tim-cua-yiwha-tinh-yeu-va-bao-thu",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260113/pZEydzQD/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "58be01aa723db6569480940d2c1fde3d",
+          "id": "channel_thuy-trieu-tinh-yeu-phan-2",
           "name": "Thủy Triều Tình Yêu (Phần 2)",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260206-1/f38225ffd928c85e486a044f88b6ad6e.jpg"
-          },
           "description": "Một người thừa kế giàu có và một sinh viên nghệ thuật bước vào một thỏa thuận mang tính giao dịch. Thế nhưng, mối quan hệ ấy dần dần nảy sinh tình cảm thật lòng, buộc cả hai phải đối mặt với những khao khát thực sự của bản thân.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260206-1/f38225ffd928c85e486a044f88b6ad6e.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_thuy-trieu-tinh-yeu-phan-2",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_thuy-trieu-tinh-yeu-phan-2",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260205/eym79RCN/index.m3u8"
+                  "id": "content_thuy-trieu-tinh-yeu-phan-2",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_thuy-trieu-tinh-yeu-phan-2",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_thuy-trieu-tinh-yeu-phan-2",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260205/eym79RCN/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "f25a418b357e97b19bcc1a3eda1ac864",
+          "id": "channel_thien-tuong",
           "name": "Thiên Tướng",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20251016-1/c967089ca411a66fe76ef9f47090a34d.jpg"
-          },
           "description": "Đinh Hiểu - người từng bị coi là &quot;phế tương&quot; và phải làm công việc khiêng quan tài trong suốt tám năm. Cho đến khi cậu thức tỉnh năng lực “tương lực” để bảo vệ thế giới khỏi linh sát khiến hỗn loạn, đồng thời đi tìm cách cứu em gái mắc bệnh bí ẩn. Cũng trong quá trình đó, Đinh Hiểu bị cuốn vào một âm mưu lớn hơn liên quan đến số phận nhân loại.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20251016-1/c967089ca411a66fe76ef9f47090a34d.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_thien-tuong",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_thien-tuong",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20251016/AkDAnizg/index.m3u8"
+                  "id": "content_thien-tuong",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_thien-tuong",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_thien-tuong",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20251016/AkDAnizg/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "1427649dc26d209f0b0bd9d3c025ad98",
+          "id": "channel_co-mot-co-gai-de-thuong-trong-to-doi-anh-hung-nen-toi-thu-to-tinh",
           "name": "Có Một Cô Gái Dễ Thương Trong Tổ Đội Anh Hùng, Nên Tôi Thử Tỏ Tình",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260109-1/52586e3756a2575f7dadc144031a6e8c.jpg"
-          },
           "description": "Yoki, một người dân Nhật Bản chuyển sinh thành Ma tộc, hiện đang giữ một vị trí &quot;&quot;làng nhàng&quot;&quot; là thuộc hạ của Ma vương với nhiệm vụ tiêu diệt nhóm Anh hùng. Thế nhưng, khi đối mặt với tổ đội Anh hùng đang tấn công vào lâu đài Ma vương, Yoki bỗng nhiên... &quot;&quot;Thôi xong, đúng gu mình rồi!&quot;&quot; Chuyện không ai ngờ đã xảy ra: anh chàng đã trúng tiếng sét ái tình với Cecilia, nữ tu sĩ của nhóm Anh hùng! Từ khuôn mặt nghiêm túc khi chiến đấu cho đến từng cử chỉ, tất cả đều quá đỗi dễ thương! Đúng chuẩn thiên thần! Thế là Yoki quyết định sẽ tỏ tình, nhưng liệu chuyện gì sẽ xảy ra tiếp theo? Một câu chuyện hài lãng mạn giả tượng thuần khiết nhất dị giới, pha chút phong cách &quot;&quot;hội chứng tuổi teen&quot;&quot; giữa con người và ma tộc chính thức bắt đầu!",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260109-1/52586e3756a2575f7dadc144031a6e8c.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_co-mot-co-gai-de-thuong-trong-to-doi-anh-hung-nen-toi-thu-to-tinh",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_co-mot-co-gai-de-thuong-trong-to-doi-anh-hung-nen-toi-thu-to-tinh",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260109/kBfwrtUr/index.m3u8"
+                  "id": "content_co-mot-co-gai-de-thuong-trong-to-doi-anh-hung-nen-toi-thu-to-tinh",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_co-mot-co-gai-de-thuong-trong-to-doi-anh-hung-nen-toi-thu-to-tinh",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_co-mot-co-gai-de-thuong-trong-to-doi-anh-hung-nen-toi-thu-to-tinh",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260109/kBfwrtUr/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "8b024d7a384eb3df4157cd1e53027137",
+          "id": "channel_vi-con-gai-toi-co-the-danh-bai-ca-ma-vuong",
           "name": "Vì Con Gái, Tôi Có Thể Đánh Bại Cả Ma Vương",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260109-1/88ada5b2e2b1a5b6b33fb09218b5c398.jpg"
-          },
           "description": "<span class=\"\">&quot;Từng là kẻ thống trị đáng sợ của muôn loài quỷ,</span><span class=\"\"> Quỷ Vương Ahriman luôn nung nấu ý định chinh phục thế giới… cho đến khi ông bị ngăn cản bởi một thế lực không ngờ tới:</span><span class=\"\"> chính là cô con gái Dou của mình!</span><span class=\"\"> Vì quá tốt bụng để gây ra sự hỗn loạn và quá dịu dàng để khơi mào chiến tranh,</span><span class=\"\"> Dou đã làm tan chảy trái tim của quỷ dữ,</span><span class=\"\"> loài người và thậm chí là cả các thiên thần.</span><span class=\"\"> Tuyệt vọng trong việc khôi phục lòng kiêu hãnh của tộc quỷ,</span><span class=\"\"> cận thần Jahi của Ahriman đã thề sẽ huấn luyện Dou trở thành một ác quỷ thực thụ.</span><span class=\"\"> Thế nhưng,</span><span class=\"\"> liệu Jahi có thể chống lại được sự bao dung và lòng trắc ẩn của Dou?!</span><span class=\"\"></span>",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260109-1/88ada5b2e2b1a5b6b33fb09218b5c398.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_vi-con-gai-toi-co-the-danh-bai-ca-ma-vuong",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_vi-con-gai-toi-co-the-danh-bai-ca-ma-vuong",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260109/prGfmSZR/index.m3u8"
+                  "id": "content_vi-con-gai-toi-co-the-danh-bai-ca-ma-vuong",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_vi-con-gai-toi-co-the-danh-bai-ca-ma-vuong",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_vi-con-gai-toi-co-the-danh-bai-ca-ma-vuong",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260109/prGfmSZR/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "0ace2e260c8163925254bc878b9eb8ca",
+          "id": "channel_thanh-pho-so-hai",
           "name": "Thành Phố Sợ Hãi",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260212-1/86d05280cdf91c33283496597a22be54.jpg"
-          },
           "description": "Sau khi cháu gái cô bị bắt cóc, Cristina (Naruna Costa) buộc phải xem lại vị trí của mình trong Hội Anh Em, để rồi nhận ra rằng lòng trung thành mong manh đến nhường nào.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260212-1/86d05280cdf91c33283496597a22be54.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_thanh-pho-so-hai",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_thanh-pho-so-hai",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260211/IIzas4pZ/index.m3u8"
+                  "id": "content_thanh-pho-so-hai",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_thanh-pho-so-hai",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_thanh-pho-so-hai",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260211/IIzas4pZ/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "bcb35e73c974a4ba0b5685dbd875c2fa",
+          "id": "channel_thai-binh-nien",
           "name": "Thái Bình Niên",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260124-1/230377b369c8b86013a47bfa8599b9e1.jpg"
-          },
           "description": "Vào thời kỳ Ngũ đại Thập quốc, trật tự chính trị sụp đổ, chiến tranh liên tục nổ ra khiến dân chúng phải sống trong lầm than. Trước tình cảnh đó, Tiền Hoằng Thục, Triệu Khuông Dận và Quách Vinh dần nhận ra rằng chỉ có thống nhất đất nước mới có thể chấm dứt được loạn lạc và tang thương. Thái Bình Niên ba theo chân ba con người mang chí lớn này trong hành trình đầy gian nan và thử thách để thực hiện khát vọng chấm dứt chiến tranh và mang lại thái bình cho dân chúng.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260124-1/230377b369c8b86013a47bfa8599b9e1.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_thai-binh-nien",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_thai-binh-nien",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260124/8zuM2Swk/index.m3u8"
+                  "id": "content_thai-binh-nien",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_thai-binh-nien",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_thai-binh-nien",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260124/8zuM2Swk/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "ec151b6ecbb40275f4ac68bc99635554",
+          "id": "channel_tu-xuyen-phan-2",
           "name": "Tử Xuyên (Phần 2)",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20250813-1/f4d31a926b46f7bfd809527d9df711ae.jpg"
-          },
           "description": "Để thanh minh cho sợ trong sạch của mình thì con người ta có thể dùng đến những lời nói, nhưng đôi khi thì lời nói không phải hoàn toàn có giá trị và đáng tin, mà cách thiết thực nhất chính là chứng minh bằng thực lực và cả hành động. Tử Xuyên Tú vì muốn bảo vệ gia tộc Tử Xuyên của mình mà không ngần ngại ra tay trừng trị kẻ phản gián, bán mình cho ma tộc. Và cũng kể từ đó, Tử Xuyên Tú nhận được sự đồng tình và giúp đỡ tuyệt đối của các trưởng lão ở Miếu Thánh tại vùng đất Viễn Đông, một bước trở thành thủ lĩnh mới thống lĩnh trăm vạn quân liên minh và cũng hiên ngang trở thành một vị vua mới và cái tên là Quang Minh Vương của vùng đất Viễn Đông bao la ấy.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20250813-1/f4d31a926b46f7bfd809527d9df711ae.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_tu-xuyen-phan-2",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_tu-xuyen-phan-2",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20250813/kQdtZ7dk/index.m3u8"
+                  "id": "content_tu-xuyen-phan-2",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_tu-xuyen-phan-2",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_tu-xuyen-phan-2",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20250813/kQdtZ7dk/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "99644a15c905e2bea0236398dd480dd5",
+          "id": "channel_tu-cam-ngu-mieu-phong",
           "name": "Tử Cấm Ngự Miêu Phòng",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20251221-1/50d393dd4701de0d722bae33ff0fe8bd.jpg"
-          },
           "description": "Trong Tử Cấm Thành cổ kính với bề dày lịch sử và văn hóa sâu sắc, có rất nhiều chú mèo đáng yêu đang sinh sống. Trong mắt con người, chúng có một cuộc sống thong dong đầy ngưỡng mộ. Thế nhưng, trong số đó có sáu chú &quot;Ngự miêu&quot; khác biệt, mang trên mình trọng trách bảo vệ ký ức của các văn vật — gọi là &quot;Vật Hoa&quot;. Chúng tiến vào thế giới của Vật Hoa, hết lần này đến lần khác chiến thắng kẻ phá hoại Hắc Kiêu, đưa thế giới ấy trở lại quỹ đạo đúng đắn, từ đó bảo vệ các báu vật quốc gia. Sáu chú Ngự miêu này bao gồm: Ban Thúc, Ma Ma (thuộc lớp Văn) và Sương Mi, A Bái, Bình An, Tiểu Tử (thuộc lớp Võ). Với trí tuệ, lòng dũng cảm và sự phối hợp ăn ý, chúng đã cùng nhau tạo nên &quot;Tử Cấm Ngự Miêu Phòng&quot; — đội quân bảo vệ thế giới Vật Hoa của quốc bảo.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20251221-1/50d393dd4701de0d722bae33ff0fe8bd.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_tu-cam-ngu-mieu-phong",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_tu-cam-ngu-mieu-phong",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20251221/aFuTO0cc/index.m3u8"
+                  "id": "content_tu-cam-ngu-mieu-phong",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_tu-cam-ngu-mieu-phong",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_tu-cam-ngu-mieu-phong",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20251221/aFuTO0cc/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "a0d26bf79de52c1ebbcb63c52542825f",
+          "id": "channel_tuoi-tre-tai-cao",
           "name": "Tuổi Trẻ Tài Cao",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260131-1/b24912cda8d9fedb73dc49b6c4718207.jpg"
-          },
           "description": "Bùi Khiêm, một nhân viên làm việc tại tập đoàn lớn, vừa bị sa thải thì bất ngờ nhận được lời mời từ một ông trùm bí ẩn để thành lập một công ty với mục tiêu bắt buộc là... phải thua lỗ. Thế là anh tập hợp một đám nhân viên tạp nham, khởi động kế hoạch &quot;đốt tiền&quot; của mình. Anh vắt óc suy nghĩ cách tăng lương, cho nghỉ phép dài hạn, thêm đãi ngộ &quot;trên trời&quot; cho nhân viên và đầu tư vào hàng loạt dự án kỳ quặc. Tuy nhiên, lần nào dự án cũng lội ngược dòng ngoạn mục, thu được lãi lớn. Bùi Khiêm bỗng chốc trở thành &quot;ông chủ quốc dân&quot; trong lòng nhân viên, thiên tài kinh doanh được giới thương nhân công nhận, nhưng trong lòng lại khổ tâm không nói nên lời. Bùi Khiêm đành phải ngậm ngùi nuốt nỗi khổ vì bỗng dưng giàu sụ vào trong, tiếp tục tìm thêm cơ hội khác để &quot;lội ngược dòng&quot;...",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260131-1/b24912cda8d9fedb73dc49b6c4718207.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_tuoi-tre-tai-cao",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_tuoi-tre-tai-cao",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260131/RQfwPWkb/index.m3u8"
+                  "id": "content_tuoi-tre-tai-cao",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_tuoi-tre-tai-cao",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_tuoi-tre-tai-cao",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260131/RQfwPWkb/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "7921d90348e08272240aeed482095bae",
+          "id": "channel_to-nhan-dac-cong",
           "name": "Tố Nhân Đặc Công",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260212-1/41857cb62ee365b939d00abfa72b7aac.jpg"
-          },
           "description": "Triệu Phong, bậc thầy thể thao mạo hiểm (Vương Đại Lục đóng) tình cờ gia nhập vào một cuộc giao dịch phạm pháp quốc tế, vì vậy cần phải đi theo đặc công quốc tế (Comilla · Kiều Ốc Duy Cơ đóng) cùng nhau đến Budapest. Tại đây anh ta cùng hình cảnh &quot;vô dụng&quot; Miểu Miểu (Trương Dung Dung đóng), nhà khoa học &quot;nghiệp dư&quot; Đinh Sơn (Hứa Ngụy Châu đóng) và bác sĩ thất nghiệp LV (Lưu Mỹ Đồng đóng) hợp thành một tố nhân đặc công - đặc vụ nghiệp dư. Bốn đặc vụ &quot;Tiểu Bạch&quot; hợp tác với đặc công quốc tế cấp cao Comilla và những kẻ khủng bố đã mở ra một cuộc chiến đấu ly kì vui nhộn.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260212-1/41857cb62ee365b939d00abfa72b7aac.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_to-nhan-dac-cong",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_to-nhan-dac-cong",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260211/3sPlJWev/index.m3u8"
+                  "id": "content_to-nhan-dac-cong",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_to-nhan-dac-cong",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_to-nhan-dac-cong",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260211/3sPlJWev/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "6964e9d5cd1aab8c7c72b12b77f2fd20",
+          "id": "channel_tim-moi-tinh-dau-qua-giong-noi",
           "name": "Tìm Mối Tình Đầu Qua Giọng Nói",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260109-1/e27f86a28a6b70f879fe191912acc649.jpg"
-          },
           "description": "Mỗi khi nằm một mình trong đêm, Arisu Yamabuki luôn tìm thấy sự an ủi từ giọng nói ấm áp của nữ phát thanh viên bí ẩn mang biệt danh “Apollo”. Thế nhưng, một ngày nọ cô đột ngột biến mất khỏi làn sóng radio mà không để lại bất kỳ lời giải thích nào. Nhiều năm sau, khi đã là học sinh lớp 11, Arisu quyết tâm tìm lại Apollo vì vẫn còn những điều chưa kịp nói. Dù không biết diện mạo hay tên thật của cô, cậu lần theo những manh mối dẫn mình đến Câu lạc bộ Phát thanh của trường. Tại đây, Arisu gặp bốn cô gái Rikka, Shinobu, Nene và Iko - những người sở hữu chất giọng giống hệt Apollo và cùng nuôi dưỡng ước mơ trở thành phát thanh viên, mở ra hành trình tìm kiếm giọng nói năm xưa với những rung động tuổi trẻ đầy cảm xúc.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260109-1/e27f86a28a6b70f879fe191912acc649.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_tim-moi-tinh-dau-qua-giong-noi",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_tim-moi-tinh-dau-qua-giong-noi",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260109/U3rCKHyL/index.m3u8"
+                  "id": "content_tim-moi-tinh-dau-qua-giong-noi",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_tim-moi-tinh-dau-qua-giong-noi",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_tim-moi-tinh-dau-qua-giong-noi",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260109/U3rCKHyL/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "c30eae095af40e4bdefe6e0f1636eea2",
+          "id": "channel_tan-tich-cua-gio",
           "name": "Tàn Tích Của Gió",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260205-1/ce3f07950e932fc695b9ac14d217945e.jpg"
-          },
           "description": "Phòng Kỹ thuật Hình sự, Cục Công an thành phố Vân Tịch là nơi tập trung các vụ án lớn và vụ án kỳ lạ. Dưới sự dẫn dắt của đội trưởng Lãnh Khải Minh, tổ điều tra bao gồm Diệp Khiêm, Tư Nguyên Long, Tiêu Lỗi, Trương Tử Vu... đã tạo nên một biệt đội cảnh sát hình sự tinh nhuệ, trẻ trung và chuyên nghiệp. Trong số họ, có người giỏi phân tích, người thì giỏi suy luận và nắm bắt tâm lý; có người giỏi công nghệ, làm chủ mọi thiết bị trinh sát; còn có cảnh sát kỳ cựu túc trí đa mưu, luôn đưa ra những chỉ dẫn then chốt, và cả chàng thanh niên lanh lợi, khéo léo luôn mang lại tiếng cười cho cả đội. Với tôn chỉ &quot;Giải mã mật mã tử thi, bảo vệ phẩm giá sinh mệnh&quot;, mỗi người một thế mạnh, ai nấy đều làm tròn chức trách, liên tiếp phá giải những vụ án lạ lùng, khó tin. Qua từng vụ án, họ nhìn thấu tâm tính con người và ra sức thực thi công lý. Núi cao còn có núi cao hơn, vụ án này lại lồng vào vụ án kia, khi sự thật dần lộ diện cũng là lúc bản chất con người được phơi bày.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260205-1/ce3f07950e932fc695b9ac14d217945e.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_tan-tich-cua-gio",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_tan-tich-cua-gio",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260205/Oxb6GUzV/index.m3u8"
+                  "id": "content_tan-tich-cua-gio",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_tan-tich-cua-gio",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_tan-tich-cua-gio",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260205/Oxb6GUzV/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "3f2b8decc6771a77dad1fa90ced28eaa",
+          "id": "channel_sac-dem-ngap-tran",
           "name": "Sắc Đêm Ngập Tràn",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260130-1/ef449da8e1b085ced7c655d013e12093.jpg"
-          },
           "description": "Dưới vỏ bọc của một bữa tiệc thịnh soạn đã khiến sóng ngầm giấu kín bấy lâu nay trỗi dậy, đánh thức tất cả những kẻ đang giả vờ ngủ say, đồng thời kích hoạt mối nguy sinh tồn lan rộng khắp các cấp bậc tại tập đoàn rượu GST. Khi mọi thứ đều là vấn đề sống còn, mỗi bước đi đều đòi hỏi sự cẩn trọng tột độ. Bảy nhân vật chính bị cuốn sâu vào vòng xoáy ấy, mỗi người đóng một vai trò khác nhau, cùng nhau phác họa nên sự phức tạp của lòng người và sự tàn khốc của thực tại. Tất cả cùng hướng đến một chủ đề chung: Làm thế nào để có thể sống lạc quan giữa những tháng ngày đầy rẫy bất an và lo sợ!",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260130-1/ef449da8e1b085ced7c655d013e12093.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_sac-dem-ngap-tran",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_sac-dem-ngap-tran",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260128/e94NY0yQ/index.m3u8"
+                  "id": "content_sac-dem-ngap-tran",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_sac-dem-ngap-tran",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_sac-dem-ngap-tran",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260128/e94NY0yQ/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "6b3825881c0f630382026fc43ba12869",
+          "id": "channel_quay-ve-nam-1995-de-yeu-em",
           "name": "Quay Về Năm 1995 Để Yêu Em",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260130-1/614c3b3e65fc27c5c97960013a1eaafd.jpg"
-          },
           "description": "Cô gái hiện đại Trang Mạn Anh vô tình xuyên không trở về năm 1995. Với quyết tâm thay đổi số phận bi thảm của mẹ mình, cô đã vận dụng những kỹ năng thời hiện đại để thống trị chốn công sở và trừng trị thẳng tay gã đàn ông tồi tệ. Thế nhưng, cô lại bất ngờ rơi vào những rắc rối tình cảm không lường trước với người &#39;cậu&#39; lạnh lùng của mình.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260130-1/614c3b3e65fc27c5c97960013a1eaafd.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_quay-ve-nam-1995-de-yeu-em",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_quay-ve-nam-1995-de-yeu-em",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260128/BJ3SxaYR/index.m3u8"
+                  "id": "content_quay-ve-nam-1995-de-yeu-em",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_quay-ve-nam-1995-de-yeu-em",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_quay-ve-nam-1995-de-yeu-em",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260128/BJ3SxaYR/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "614b785e10cceb93fb854958a5f93d1f",
+          "id": "channel_phon-hoa-lui-tan",
           "name": "Phồn Hoa Lụi Tàn",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260203-1/3adc8a6d8f07e32c39a1e7781bbf1e63.jpg"
-          },
           "description": "Để điều tra nguyên nhân cái chết của chị gái, Tô Vũ Niệm đã thâm nhập vào &quot;Phồn Hoa Thâm Xứ&quot; – chốn ăn chơi xa hoa trụy lạc, cô vô tình bị cuốn vào cuộc chiến quyền mưu đẫm máu giữa Nhiếp Phong và Đồ Gia Thịnh, đồng thời phát hiện ra chị gái mình bị diệt khẩu vì nắm giữ một bằng chứng chí mạng. Hiểm nguy dồn dập kéo đến: bạn thân phản bội, &quot;đào chính&quot; hãm hại, lại còn bị Nhiếp Phong đưa vào tầm ngắm. Giữa cô và Đồ Gia Thịnh tồn tại mối quan hệ vừa là địch vừa là bạn. Ẩn sâu dưới vẻ hào nhoáng của chốn phồn hoa ấy, tất cả chỉ là những lời dối trá nhuốm máu.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260203-1/3adc8a6d8f07e32c39a1e7781bbf1e63.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_phon-hoa-lui-tan",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_phon-hoa-lui-tan",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260202/wRgjkDwt/index.m3u8"
+                  "id": "content_phon-hoa-lui-tan",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_phon-hoa-lui-tan",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_phon-hoa-lui-tan",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260202/wRgjkDwt/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "6acf2725b339ee1695ebf86253f75221",
+          "id": "channel_phong-vu",
           "name": "Phong Vũ",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260131-1/141144b4fbea09bc5d499948b8a3ef0a.jpg"
-          },
           "description": "A Chiêu, một y nữ thuộc tộc Vu Nguyệt, vốn là hậu duệ của Thần nữ nhưng chính cô cũng không hề hay biết. Cô tình cờ gặp gỡ và đem lòng yêu Quân chủ nước Bồ La là Ứng Đô, nhưng sau đó lại phải tận mắt chứng kiến cảnh anh ta tàn sát tộc nhân và những người thân thiết nhất của mình.&nbsp; Nhờ vào sức mạnh của chiếc vòng Phong Vũ Trạc có khả năng quay ngược thời gian, hai người đã cùng nhau trải qua ba kiếp luân hồi đầy đau khổ và trắc trở. Cuối cùng, A Chiêu cũng điều tra ra toàn bộ sự thật phía sau, dũng cảm đối đầu với xiềng xích &#39;cấm tình&#39; mà Thiên đạo áp đặt lên Thần nữ. Cô đã thành công phá bỏ số phận nghiệt ngã để cùng Ứng Đô kết thành quyến thuộc.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260131-1/141144b4fbea09bc5d499948b8a3ef0a.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_phong-vu",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_phong-vu",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260131/9inHoMf9/index.m3u8"
+                  "id": "content_phong-vu",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_phong-vu",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_phong-vu",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260131/9inHoMf9/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "e3fd383f6ed435f35f70175031cb4697",
+          "id": "channel_nu-than-bang-thuong-nhan",
           "name": "Nữ Thần Bàng Thượng Nhãn",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260131-1/c297a14096ea75f48cf901f8d607767e.jpg"
-          },
           "description": "“Nữ luật sư bất bại” Đường Doanh Doanh (Tân Chỉ Lôi thủ vai) cùng cấp trên trực tiếp Khang Tuấn (Lâm Vũ Thân thủ vai) liên tục đối đầu trong hàng loạt vụ án phản ánh muôn mặt đời sống. Qua những va chạm ấy, họ từng bước làm sáng tỏ bài toán mang đậm màu sắc Trung Quốc về “tình người và pháp lý”. cuối cùng thu hoạch được câu chuyện động lòng người về sự trưởng thành của bản thân. Bộ phim khai thác nhiều chủ đề được xã hội quan tâm như tình yêu và hôn nhân, sự nghiệp và gia đình, pháp lý và đạo đức…, nỗ lực khắc họa sâu sắc cuộc sống và những lựa chọn của các nhóm người khác nhau, qua đó khích lệ khán giả giữ vững dũng khí và hy vọng khi đối mặt với những thử thách của đời sống.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260131-1/c297a14096ea75f48cf901f8d607767e.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_nu-than-bang-thuong-nhan",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_nu-than-bang-thuong-nhan",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260130/0Y9xUWfy/index.m3u8"
+                  "id": "content_nu-than-bang-thuong-nhan",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_nu-than-bang-thuong-nhan",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_nu-than-bang-thuong-nhan",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260130/0Y9xUWfy/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "5e4b3bf0d97e959f577e143845dd852d",
+          "id": "channel_nem-huong-dao-mong",
           "name": "Nếm Hương Đào Mọng",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260121-1/d3ce87b2bee8d982a3ef702484c34ecd.jpg"
-          },
           "description": "Một người hâm mộ cuồng nhiệt đã may mắn giành được cơ hội đóng chung với nữ diễn viên phim người lớn mà mình yêu thích nhất. Tuy nhiên, trong quá trình làm việc, mối quan hệ giữa họ đã vượt ra ngoài kịch bản và trở thành một tình yêu thực sự.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260121-1/d3ce87b2bee8d982a3ef702484c34ecd.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_nem-huong-dao-mong",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_nem-huong-dao-mong",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260121/vjBlVjtX/index.m3u8"
+                  "id": "content_nem-huong-dao-mong",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_nem-huong-dao-mong",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_nem-huong-dao-mong",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260121/vjBlVjtX/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "f5abe18064d57c2e5a768504a2041036",
+          "id": "channel_me-cung-ai-tinh",
           "name": "Mê Cung Ái Tình",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260124-1/0cbb5c63e65ccf6825ec98b793aa0f3e.jpg"
-          },
           "description": "Mái ấm tưởng chừng như hoàn hảo giữa Tường Lan và Tùng bỗng sụp đổ với sự xuất hiện của kẻ thứ ba, một cô gái trẻ đẹp tên Angela. Không chỉ chen chân vào cuộc hôn nhân giữa Lan và Tùng, Angela còn rắp tâm muốn hủy hoại thanh danh và sự nghiệp của Lan. Sau một thời gian dài tranh chấp với chồng và tình nhân của chồng, cuối cùng Lan cũng có thể ra đi mà không phải đánh mất tất cả. Trong quá trình tìm lại bản thân sau cuộc hôn nhân thất bại, Lan bất ngờ rơi vào Mê Cung Ái Tình với một chàng trai trẻ. Liệu rằng đó sẽ là cái kết đẹp cho một chuyện tình cổ tích hay là âm mưu thâm độc nào khác?",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260124-1/0cbb5c63e65ccf6825ec98b793aa0f3e.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_me-cung-ai-tinh",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_me-cung-ai-tinh",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260123/3QHonH72/index.m3u8"
+                  "id": "content_me-cung-ai-tinh",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_me-cung-ai-tinh",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_me-cung-ai-tinh",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260123/3QHonH72/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "301bf48ccd2d928584a1c7750415a859",
+          "id": "channel_long-pha-cuu-thien",
           "name": "Long Phá Cửu Thiên",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260212-1/011e3bdf72257ffabb50b1cbe79a9dd4.jpg"
-          },
           "description": "Lâm Thần xuất thân từ một giang hồ đầy mộng tưởng, mang trong mình khát vọng vươn tới đỉnh cao võ đạo. Con đường ấy không hề bằng phẳng, những sự sỉ nhục, những lần thất bại và những thử thách nghiệt ngã liên tiếp bào mòn ý chí của anh chàng. Chỉ sau khi nếm đủ cay đắng của kiếp người, Lâm Thần mới từng bước đứng vào hàng ngũ cường giả, trở thành cái tên khiến thiên hạ kính phục. Thế nhưng, vinh quang chưa kịp vẹn tròn, Lâm Thần lại đối diện những mất mát không lời giải. Trong tận cùng đau khổ, một cảnh giới hiếm có được khai mở, nó được gọi là Tâm Giác, tầng nhận thức vượt xa võ học thông thường. Nhờ đó, Lâm Thần chạm đến bản chất của sinh diệt, nhìn rõ dòng chảy vô tình của số phận, đồng thời thoáng thấy manh mối về sự biến mất bí ẩn của phụ thân. Biết được chưa bao giờ đồng nghĩa với nắm giữ, mà để làm chủ sức mạnh ấy và truy tìm chân tướng sự việc, Lâm Thần buộc phải tiếp tục bước sâu vào vòng xoáy giang hồ, nơi mỗi lựa chọn đều có thể đổi lấy máu và định mệnh.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260212-1/011e3bdf72257ffabb50b1cbe79a9dd4.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_long-pha-cuu-thien",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_long-pha-cuu-thien",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260211/FdoFojgV/index.m3u8"
+                  "id": "content_long-pha-cuu-thien",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_long-pha-cuu-thien",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_long-pha-cuu-thien",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260211/FdoFojgV/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "d6a1499555c182d0fa8919c666fa4710",
+          "id": "channel_lieu-phap-su-that-phan-3",
           "name": "Liệu Pháp Sự Thật (Phần 3)",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260129-1/5bff88fd0dd2f5f25e4d0b6e709cb4de.jpg"
-          },
           "description": "Jimmy đang vật lộn để vượt qua nỗi đau mất vợ trong khi vẫn phải làm cha, làm bạn và làm nhà trị liệu. Anh quyết định thử cách tiếp cận mới với mọi người: thẳng thắn không kiêng nể. Liệu điều đó có khiến mọi chuyện trở nên tốt hơn — hay sẽ gây ra hỗn loạn?",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260129-1/5bff88fd0dd2f5f25e4d0b6e709cb4de.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_lieu-phap-su-that-phan-3",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_lieu-phap-su-that-phan-3",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260129/qwjUTk6A/index.m3u8"
+                  "id": "content_lieu-phap-su-that-phan-3",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_lieu-phap-su-that-phan-3",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_lieu-phap-su-that-phan-3",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260129/qwjUTk6A/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "f862869c41a0dae100f62459a3e2f6a3",
+          "id": "channel_khong-tac-phan-2",
           "name": "Không Tặc (Phần 2)",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260117-1/67614908ddcbbcafea8787f05bee97d1.jpg"
-          },
           "description": "Khi Chuyến bay KA29 bị không tặc trong chuyến hành trình kéo dài bảy giờ từ Dubai đến London, Sam Nelson - một nhà đàm phán kinh doanh tài ba - cố gắng sử dụng các kỹ năng nghề nghiệp của mình để cứu mọi người trên máy bay. Liệu chiến lược rủi ro cao này có khiến anh thất bại?",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260117-1/67614908ddcbbcafea8787f05bee97d1.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_khong-tac-phan-2",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_khong-tac-phan-2",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260117/bSc6vwbe/index.m3u8"
+                  "id": "content_khong-tac-phan-2",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_khong-tac-phan-2",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_khong-tac-phan-2",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260117/bSc6vwbe/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "16db0f01adf864f5cd063e1f02371910",
+          "id": "channel_hoa-mau",
           "name": "Hoa Máu",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260205-1/50a279c9ab6a570c8a60f2b672efc30a.jpg"
-          },
           "description": "Bộ phim kể về Lee U Gyeom, kẻ sát nhân hàng loạt nắm giữ công nghệ y học cứu người. Phim xoay quanh cuộc đấu trí giữa luật sư muốn cứu con và công tố viên đòi công lý. Liệu hắn là tội đồ hay hy vọng cuối cùng? Một tác phẩm tâm lý tội phạm đầy gai góc về đạo đức và sự sống.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260205-1/50a279c9ab6a570c8a60f2b672efc30a.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_hoa-mau",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_hoa-mau",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260205/f35fk30G/index.m3u8"
+                  "id": "content_hoa-mau",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_hoa-mau",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_hoa-mau",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260205/f35fk30G/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "4b89ca473f73d62423a27511b3dce122",
+          "id": "channel_hau-vua-nhu-hau-cop",
           "name": "Hầu Vua Như Hầu Cọp",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260207-1/b013fcabd6f04b99e3c96505bd224cbb.jpg"
-          },
           "description": "Thuở nhỏ, Thái tử Trử Anh tình cờ quen biết với tiểu thái giám Tiểu Mãn, hai người thanh mai trúc mã, kết thành tâm giao. Sau khi Tiên đế băng hà, Thái tử Trử Anh lên ngôi hoàng đế, còn Tiểu Mãn lại bị trục xuất khỏi cung. Mười năm sau, Tiểu Mãn cải trang nam nhi quay lại hoàng cung. Hai người ngoài mặt thì trông thân thiết nhưng thực chất lại âm thầm dò xét, thử thách lẫn nhau. Sau khi cùng nhau trải qua những sóng gió tranh đấu chốn triều đình, tình cảm của cả hai bắt đầu nảy sinh biến chuyển...",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260207-1/b013fcabd6f04b99e3c96505bd224cbb.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_hau-vua-nhu-hau-cop",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_hau-vua-nhu-hau-cop",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260206/eYGJeYKS/index.m3u8"
+                  "id": "content_hau-vua-nhu-hau-cop",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_hau-vua-nhu-hau-cop",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_hau-vua-nhu-hau-cop",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260206/eYGJeYKS/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "c7aa952887ba7e5c61905abd5cbfbb0c",
+          "id": "channel_gia-thien",
           "name": "Già Thiên",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20240411-1/0a4084fdfad19ecab9f1f53d629bf422.jpg"
-          },
           "description": "Ở tận cùng vũ trụ, nơi vô cùng lạnh lẽo và tối tăm, chín xác rồng khổng lồ kéo một cỗ quan tài bằng đồng cổ kính, tồn tại suốt từ thời xa xưa. Đây là hình ảnh cực sốc mà tàu thám hiểm không gian đã thấy được trong vũ trụ hiu quạnh. Chín con rồng kéo quan tài, rốt cuộc là trở về thời cổ đại hay đã đến bên kia bầu trời đầy sao? Một thế giới tiên hiệp rộng lớn, kỳ dị và đầy bí ẩn. Nhiệt huyết sục sôi như núi lửa phun trào, đam mê cuồn cuộn như biển cả, ham muốn vô tận như vực thẳm... Đường lên trời, rộn tiếng ca vang.",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20240411-1/0a4084fdfad19ecab9f1f53d629bf422.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_gia-thien",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_gia-thien",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s3.phim1280.tv/20240411/n2i5u9Ux/index.m3u8"
+                  "id": "content_gia-thien",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_gia-thien",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_gia-thien",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s3.phim1280.tv/20240411/n2i5u9Ux/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "19317b848dbb3dcbfb5684c662fd25ff",
+          "id": "channel_duong-quy-ky-an",
           "name": "Đường Quỷ Kỳ Án",
-          "image": {
-            "url": "https://phimimg.com/upload/vod/20260210-1/be8b24857a1c74805c43209123d31782.jpg"
-          },
           "description": "<span class=\"info__field-name\"></span>Nhà Đường, giữa thời Khai Nguyên \r\nthịnh thế, ẩn dưới lớp vỏ phồn hoa rực rỡ của thành Trường An là những \r\nvụ án hết sức ly kỳ. Thám tử chốn dân gian Thân Đồ Bách Kỳ đã hợp tác \r\ncùng Thiếu khanh Đại Lý Tự Nghiêu Viễn và Mục Quy Đề, lần lượt phá giải \r\nhàng loạt vụ kỳ án như tế lễ hài nhi, trấn yểm quan tài, đánh bại quỷ \r\ndữ, rối gỗ đòi mạng, giấy gán vợ… Dần dà, họ từng bước lột trần những \r\ntham vọng quyền lực và chấp niệm cuồng si, vì người đã khuất mà truy tìm\r\n chân tướng, lặng lẽ giúp họ đòi lại công lý…",
-          "streams": [
+          "image": {
+            "url": "https://phimimg.com/upload/vod/20260210-1/be8b24857a1c74805c43209123d31782.jpg",
+            "type": "contain"
+          },
+          "type": "single",
+          "sources": [
             {
-              "id": "stream_duong-quy-ky-an",
-              "name": "Auto Play",
-              "stream_links": [
+              "id": "source_duong-quy-ky-an",
+              "name": "KKPhim Source",
+              "contents": [
                 {
-                  "url": "https://s6.kkphimplayer6.com/20260210/dY32DRUR/index.m3u8"
+                  "id": "content_duong-quy-ky-an",
+                  "name": "Main Content",
+                  "streams": [
+                    {
+                      "id": "stream_duong-quy-ky-an",
+                      "name": "Auto Quality",
+                      "stream_links": [
+                        {
+                          "id": "link_duong-quy-ky-an",
+                          "name": "HLS Stream",
+                          "url": "https://player.phimapi.com/player/?url=https://s6.kkphimplayer6.com/20260210/dY32DRUR/index.m3u8",
+                          "type": "hls",
+                          "default": true
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
